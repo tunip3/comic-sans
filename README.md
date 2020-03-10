@@ -1,1 +1,1 @@
-# coomic-sans
+# comic-sans
