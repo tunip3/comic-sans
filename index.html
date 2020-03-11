@@ -2,7 +2,9 @@
 <html>
 <head>
 <title>Comic Sans Council</title>
-<script>function mouselog(event) {
+<script>
+  marqueeheight = (window.innerHeight-(document.getElementsByClassName("rainbow-text")[0].offsetHeight));
+  function mouselog(event) {
   event.target.hidden = true;
 }</script>
 <style>
@@ -63,7 +65,7 @@
   <span style="color:#ff007c">l</span><span style="color:#ff0052">i</span><span style="color:#ff0029">f</span><span style="color:#ff0000">e </span> 
   </div>
 </div>
-<marquee direction="down" width="window.innerWidth" height="(window.innerHeight-(document.getElementsByClassName("rainbow-text")[0].offsetHeight))" behavior="alternate" style="border:hidden; text-align:center;">
+<marquee direction="down" width="window.innerWidth" height="marqueeheight" behavior="alternate" style="border:hidden; text-align:center;">
   <marquee behavior="alternate">
     <div class="temp1"><a href="history.html"><span style="color:#ffbf00">h</span><span style="color:#7fff00">i</span><span style="color:#00ff3f">s</span><span style="color:#00ffff">t</span><span style="color:#003fff">o</span><span style="color:#7f00ff">r</span><span style="color:#ff00bf">y</span><span style="color:#ff0000"></span></a></div>
   </marquee>
